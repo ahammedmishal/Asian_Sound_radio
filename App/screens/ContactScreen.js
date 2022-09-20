@@ -6,13 +6,19 @@ import {
   StatusBar,
   TouchableOpacity,
   Image,
-  TextInput,
 } from 'react-native';
-import {COLORS, FONTS, ICONS, IMAGES, SIZES} from '../constants';
+import {COLORS, FONTS, IMAGES, SIZES} from '../constants';
 import {StatusBarHeight} from '../constants/theme';
 import FormField from '../Components/FormButton';
 import LinearGradient from 'react-native-linear-gradient';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons'
+
+import {
+  responsiveHeight,
+  responsiveFontSize,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';;
+
 
 const ContactScreen = ({navigation}) => {
   return (
@@ -26,15 +32,11 @@ const ContactScreen = ({navigation}) => {
       <View>
         <Image
           source={IMAGES.ASIAN}
-          style={{
-            width: SIZES.width / 1.3,
-            height: SIZES.width / 5,
-            resizeMode: 'contain',
-          }}
+          style={styles.assianLogo}
         />
       </View>
 
-      <View style={{width: '100%', alignItems: 'center'}}>
+      <View style={styles.formFieldView}>
         <FormField placeholderText={'Full Name'} />
         <FormField placeholderText={'Business Name'} />
         <FormField placeholderText={'Contact  Number'} />
@@ -50,18 +52,10 @@ const ContactScreen = ({navigation}) => {
             style={styles.gradient}>
             <Text style={styles.submitButtonText}>Submit</Text>
             <View
-              style={{
-                alignItems: 'center',
-                justifyContent: 'center',
-                backgroundColor: 'white',
-                height: '100%',
-                width: '25%',
-                borderTopRightRadius: 35,
-                borderBottomRightRadius: 35,
-              }}>
+              style={styles.submitButtonView}>
               <Icon
                 name="ios-chevron-forward-circle-outline"
-                size={30}
+                size={responsiveWidth(8)}
                 color="#da1512"
               />
             </View>
@@ -83,6 +77,25 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.primary,
     paddingTop: StatusBarHeight,
   },
+  assianLogo:{
+    width: responsiveWidth(80),
+    height: responsiveHeight(8),
+    resizeMode: 'contain',
+    marginVertical:responsiveHeight(2)
+  },
+  formFieldView:{
+    width: '100%',
+    alignItems: 'center'
+  },
+  submitButtonView:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    height: '100%',
+    width: responsiveWidth(12),
+    borderTopRightRadius: responsiveWidth(10),
+    borderBottomRightRadius: responsiveWidth(10),
+  },
   TextInputStyleClass: {
     width: '100%',
     height: '100%',
@@ -95,23 +108,24 @@ const styles = StyleSheet.create({
     paddingLeft: 30,
   },
   submitButton: {
-    width: 200,
-    height: 50,
-    borderRadius: 30,
+    width: responsiveWidth(40),
+    height: responsiveHeight(7),
+    borderRadius: responsiveWidth(10),
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#ff1b00',
+    marginTop:responsiveHeight(1)
   },
   submitButtonText: {
     color: COLORS.white,
-    fontSize: SIZES.h4,
+    fontSize: responsiveFontSize(2.2),
     fontWeight: 'bold',
-    paddingLeft: 40,
+    paddingLeft: responsiveWidth(8)
   },
   gradient: {
     flex: 1,
     width: '100%',
-    borderRadius: 35,
+    borderRadius: responsiveWidth(10),
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
@@ -119,10 +133,10 @@ const styles = StyleSheet.create({
   },
   bottomText: {
     color: COLORS.white,
-    fontSize: SIZES.h3,
+    fontSize: responsiveFontSize(2.8),
     fontWeight: 'bold',
-    paddingHorizontal:30,
-    marginTop:20,
+    paddingHorizontal:responsiveWidth(7),
+    marginTop:responsiveHeight(1),
     fontFamily: FONTS.h3.fontFamily,
   },
 });

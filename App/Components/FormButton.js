@@ -1,12 +1,16 @@
 import React from 'react';
 import {View, StyleSheet, TextInput} from 'react-native';
-import {windowHeight, windowWidth} from '../utils/Dimenstions';
 import {COLORS, FONTS, SIZES} from '../constants';
 import LinearGradient from 'react-native-linear-gradient';
+import {
+  responsiveHeight,
+  responsiveFontSize,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
 
 const FormField = ({placeholderText, ...rest}) => {
   return (
-    <View style={{width:'100%',alignItems:'center',paddingBottom:15}}>
+    <View style={styles.containerView}>
         <LinearGradient
         angle={100}
         useAngle
@@ -26,23 +30,26 @@ const FormField = ({placeholderText, ...rest}) => {
 export default FormField;
 
 const styles = StyleSheet.create({
+  containerView:{
+    width:responsiveWidth(100),alignItems:'center',paddingBottom:responsiveHeight(2)
+  },
   LinearGradientStyle: {
-    height: 70,
-    width: '80%',
-    borderRadius: 35,
+    height: responsiveHeight(8),
+    width: responsiveWidth(80),
+    borderRadius: responsiveWidth(10),
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 4,
+    padding: responsiveWidth(0.8),
   },
   TextInputStyleClass: {
     width: '100%',
     height: '100%',
-    borderRadius: 35,
+    borderRadius: responsiveWidth(10),
     backgroundColor: 'white',
-    fontSize: SIZES.h4,
+    fontSize: responsiveFontSize(1.8),
     fontFamily: FONTS.h3.fontFamily,
-    lineHeight: FONTS.h3.lineHeight,
-    paddingTop: 20,
-    paddingLeft: 30,
+    paddingTop: responsiveHeight(2),
+    paddingLeft: responsiveWidth(5),
+    color: COLORS.black
   },
 });

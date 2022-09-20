@@ -7,43 +7,42 @@ import {
   Image,
   StatusBar,
   ImageBackground,
-  Button,
 } from 'react-native';
-import { COLORS, FONTS, ICONS, IMAGES } from '../constants';
-import { SIZES, StatusBarHeight } from '../constants/theme';
+import {COLORS, FONTS, ICONS, IMAGES} from '../constants';
+import {
+  responsiveHeight,
+  responsiveFontSize,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
 
 const HomeScreen = ({navigation}) => {
   return (
-    <ImageBackground source={IMAGES.IMG_BACK1} style={styles.container}>
+    <ImageBackground
+      source={IMAGES.IMG_BACK1}
+      style={styles.container}
+      resizeMode="stretch">
       <StatusBar
         barStyle="light-content"
         backgroundColor="rgba(0, 0, 0, 0.20)"
         translucent
       />
-      {/* container View */}
-      <View>
+      <View style={{height: responsiveHeight(30)}}>
         {/* header */}
         <View style={styles.headerContainer}>
           <TouchableOpacity
             style={styles.headerIconConatiner}
             onPress={() => navigation.openDrawer()}>
-            <Image source={ICONS.drawer} style={{width: 25, height: 20}} />
+            <Image source={ICONS.drawer} style={styles.drawerIconImage} />
           </TouchableOpacity>
           <Text style={styles.headerText}>Asian Sound Radio</Text>
         </View>
+
         {/* contents */}
         <View style={styles.contentContainer}>
           <Text style={styles.subHeading}>
             You are currently listening to...
           </Text>
-          <Image
-            source={IMAGES.ASIAN}
-            style={{
-              width: SIZES.width / 1.5,
-              height: SIZES.width / 5,
-              resizeMode: 'contain',
-            }}
-          />
+          <Image source={IMAGES.ASIAN} style={styles.logoImage} />
         </View>
       </View>
 
@@ -66,50 +65,66 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.primary,
     justifyContent: 'space-between',
   },
+  imageBackground: {
+    flex: 1,
+    height: '100%',
+    width: '100%',
+  },
   headerContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingTop: StatusBarHeight,
-    paddingLeft: 20,
+    paddingTop: responsiveHeight(5),
+    paddingLeft: responsiveWidth(7),
+    height: responsiveHeight(12),
   },
   headerText: {
-    fontSize: SIZES.h4,
+    fontSize: responsiveFontSize(2),
     fontFamily: FONTS.h4.fontFamily,
-    lineHeight: FONTS.h3.lineHeight,
     color: COLORS.white,
     paddingLeft: 5,
   },
   headerIconConatiner: {
-    width: 40,
-    height: 40,
+    width: responsiveWidth(10),
+    height: responsiveWidth(10),
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 8,
   },
+  drawerIconImage: {
+    width: responsiveWidth(7),
+    height: responsiveHeight(2.8),
+    resizeMode: 'contain',
+  },
   subHeading: {
-    fontSize: SIZES.h3,
+    fontSize: responsiveFontSize(2.2),
     color: COLORS.white,
   },
   contentContainer: {
     alignItems: 'center',
-    marginTop: StatusBarHeight / 2,
+    marginTop: responsiveWidth(2),
   },
   buttonView: {
-    marginBottom: StatusBarHeight,
+    marginBottom: responsiveHeight(10),
     flexDirection: 'row',
     alignSelf: 'center',
   },
   buttonIconContainer: {
-    width: 60,
-    height: 60,
+    width: responsiveWidth(12),
+    height: responsiveWidth(12),
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 30,
     margin: 5,
   },
   buttonIcon: {
-    width: 50,
-    height: 50,
+    width: responsiveWidth(12),
+    height: responsiveWidth(12),
+  },
+  logoImage: {
+    width: responsiveWidth(80),
+    height: responsiveHeight(6.5),
+    marginTop: responsiveHeight(1.2),
+    resizeMode: 'contain',
   },
 });
 
