@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, TextInput} from 'react-native';
+import {View, StyleSheet, TextInput, Platform} from 'react-native';
 import {COLORS, FONTS, SIZES} from '../constants';
 import LinearGradient from 'react-native-linear-gradient';
 import {
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     fontSize: responsiveFontSize(1.8),
     fontFamily: FONTS.h3.fontFamily,
-    paddingTop: responsiveHeight(2),
+    paddingTop: Platform.OS == 'ios' ? 0 : responsiveHeight(2),
     paddingLeft: responsiveWidth(5),
     color: COLORS.black
   },

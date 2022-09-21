@@ -62,6 +62,7 @@ const ContactScreen = ({navigation}) => {
           </LinearGradient>
         </TouchableOpacity>
       </View>
+      
       <Text style={styles.bottomText}>
         Enquire now,and our team of dedicated radio Advertising Specialists are
         waiting to help
@@ -132,6 +133,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   bottomText: {
+    flex:1,
     color: COLORS.white,
     fontSize: responsiveFontSize(2.8),
     fontWeight: 'bold',
