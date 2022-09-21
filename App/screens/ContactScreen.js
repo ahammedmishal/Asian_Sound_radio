@@ -63,10 +63,12 @@ const ContactScreen = ({navigation}) => {
         </TouchableOpacity>
       </View>
       
-      <Text style={styles.bottomText}>
-        Enquire now,and our team of dedicated radio Advertising Specialists are
-        waiting to help
-      </Text>
+      <View style={{flex:1}}>
+        <Text style={styles.bottomText}>
+          Enquire now,and our team of dedicated radio Advertising Specialists are
+          waiting to help
+        </Text>
+      </View>
     </View>
   );
 };
