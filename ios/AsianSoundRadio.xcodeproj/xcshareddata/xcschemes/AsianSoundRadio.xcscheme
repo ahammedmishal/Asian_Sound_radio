@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Asian_Sound_Radio.app"
-               BlueprintName = "Asian_Sound_Radio"
-               ReferencedContainer = "container:Asian_Sound_Radio.xcodeproj">
+               BuildableName = "AsianSoundRadio.app"
+               BlueprintName = "AsianSoundRadio"
+               ReferencedContainer = "container:AsianSoundRadio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "Asian_Sound_RadioTests.xctest"
-               BlueprintName = "Asian_Sound_RadioTests"
-               ReferencedContainer = "container:Asian_Sound_Radio.xcodeproj">
+               BuildableName = "AsianSoundRadioTests.xctest"
+               BlueprintName = "AsianSoundRadioTests"
+               ReferencedContainer = "container:AsianSoundRadio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Asian_Sound_Radio.app"
-            BlueprintName = "Asian_Sound_Radio"
-            ReferencedContainer = "container:Asian_Sound_Radio.xcodeproj">
+            BuildableName = "AsianSoundRadio.app"
+            BlueprintName = "AsianSoundRadio"
+            ReferencedContainer = "container:AsianSoundRadio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Asian_Sound_Radio.app"
-            BlueprintName = "Asian_Sound_Radio"
-            ReferencedContainer = "container:Asian_Sound_Radio.xcodeproj">
+            BuildableName = "AsianSoundRadio.app"
+            BlueprintName = "AsianSoundRadio"
+            ReferencedContainer = "container:AsianSoundRadio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

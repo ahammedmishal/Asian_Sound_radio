@@ -44,7 +44,7 @@ function CustomDrawer({navigation, props}) {
         <View>
           <View style={styles.drawerItemView}>
             <Image
-              source={ICONS.facebook}
+              source={ICONS.Radio}
               resizeMode="contain"
               style={styles.drawerItemsLogo}
             />
@@ -52,7 +52,7 @@ function CustomDrawer({navigation, props}) {
           </View>
           <View style={styles.drawerItemView}>
             <Image
-              source={ICONS.facebook}
+              source={ICONS.Gallery}
               resizeMode="contain"
               style={styles.drawerItemsLogo}
             />
@@ -60,7 +60,7 @@ function CustomDrawer({navigation, props}) {
           </View>
           <View style={styles.drawerItemView}>
             <Image
-              source={ICONS.facebook}
+              source={ICONS.Event}
               resizeMode="contain"
               style={styles.drawerItemsLogo}
             />
@@ -68,7 +68,7 @@ function CustomDrawer({navigation, props}) {
           </View>
           <View style={styles.drawerItemView}>
             <Image
-              source={ICONS.facebook}
+              source={ICONS.Alarm}
               resizeMode="contain"
               style={styles.drawerItemsLogo}
             />
@@ -76,7 +76,7 @@ function CustomDrawer({navigation, props}) {
           </View>
           <View style={styles.drawerItemView}>
             <Image
-              source={ICONS.facebook}
+              source={ICONS.Advertise}
               resizeMode="contain"
               style={styles.drawerItemsLogo}
             />

@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Asian_Sound_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Asian_Sound_RadioTests.m */; };
+		00E356F31AD99517003FC87E /* AsianSoundRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AsianSoundRadioTests.m */; };
 		03763F9741B14B14A9B5E0D4 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060FB44B30A44A5FBEFC9D45 /* Poppins-SemiBold.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-Asian_Sound_Radio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Asian_Sound_Radio.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-AsianSoundRadio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AsianSoundRadio.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		27ABB7909A4B434886352BC7 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261D06CE042844F7A39D824E /* Poppins-ExtraBold.ttf */; };
 		3C880E6812FE43B2BEDD0F70 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 790A421B266C4620B2147F65 /* Poppins-Bold.ttf */; };
 		5BB1CACC1D47473FBC3AA015 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE1EE07BDC3433A9975E779 /* Poppins-Light.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-AsianSoundRadio-AsianSoundRadioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AsianSoundRadio-AsianSoundRadioTests.a */; };
 		7A42F8A006E5435383B25A8C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFD1DF028D70417F81AC9145 /* Poppins-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8A2FB43EEEA24BAABFE33FDB /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89655699D2DC4C30AC07CE84 /* Poppins-Medium.ttf */; };
@@ -31,33 +31,33 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Asian_Sound_Radio;
+			remoteInfo = AsianSoundRadio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* Asian_Sound_RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asian_Sound_RadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* AsianSoundRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsianSoundRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Asian_Sound_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Asian_Sound_RadioTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AsianSoundRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsianSoundRadioTests.m; sourceTree = "<group>"; };
 		060FB44B30A44A5FBEFC9D45 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../App/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Asian_Sound_Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asian_Sound_Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Asian_Sound_Radio/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Asian_Sound_Radio/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Asian_Sound_Radio/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Asian_Sound_Radio/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Asian_Sound_Radio/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* AsianSoundRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsianSoundRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AsianSoundRadio/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AsianSoundRadio/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AsianSoundRadio/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AsianSoundRadio/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AsianSoundRadio/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AsianSoundRadio-AsianSoundRadioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsianSoundRadio-AsianSoundRadioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261D06CE042844F7A39D824E /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../App/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-Asian_Sound_Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asian_Sound_Radio.debug.xcconfig"; path = "Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-AsianSoundRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsianSoundRadio.debug.xcconfig"; path = "Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio.debug.xcconfig"; sourceTree = "<group>"; };
 		47127CF13D0F41C3BA9AB10F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../App/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-Asian_Sound_Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asian_Sound_Radio.release.xcconfig"; path = "Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.debug.xcconfig"; path = "Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-Asian_Sound_Radio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Asian_Sound_Radio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-AsianSoundRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsianSoundRadio.release.xcconfig"; path = "Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-AsianSoundRadio-AsianSoundRadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsianSoundRadio-AsianSoundRadioTests.debug.xcconfig"; path = "Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-AsianSoundRadio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsianSoundRadio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE705CBF284EE8BB683FF8 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../App/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		790A421B266C4620B2147F65 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../App/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Asian_Sound_Radio/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AsianSoundRadio/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89655699D2DC4C30AC07CE84 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../App/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.release.xcconfig"; path = "Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-AsianSoundRadio-AsianSoundRadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsianSoundRadio-AsianSoundRadioTests.release.xcconfig"; path = "Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests.release.xcconfig"; sourceTree = "<group>"; };
 		BDE1EE07BDC3433A9975E779 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../App/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		CFD1DF028D70417F81AC9145 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../App/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-AsianSoundRadio-AsianSoundRadioTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,20 +77,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-Asian_Sound_Radio.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-AsianSoundRadio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Asian_Sound_RadioTests */ = {
+		00E356EF1AD99517003FC87E /* AsianSoundRadioTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Asian_Sound_RadioTests.m */,
+				00E356F21AD99517003FC87E /* AsianSoundRadioTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Asian_Sound_RadioTests;
+			path = AsianSoundRadioTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -101,7 +101,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Asian_Sound_Radio */ = {
+		13B07FAE1A68108700A75B9A /* AsianSoundRadio */ = {
 			isa = PBXGroup;
 			children = (
 				F57C159028DA375800AA9F10 /* Fonts */,
@@ -112,15 +112,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Asian_Sound_Radio;
+			name = AsianSoundRadio;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-Asian_Sound_Radio.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Asian_Sound_Radio-Asian_Sound_RadioTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-AsianSoundRadio.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AsianSoundRadio-AsianSoundRadioTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Asian_Sound_Radio */,
+				13B07FAE1A68108700A75B9A /* AsianSoundRadio */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Asian_Sound_RadioTests */,
+				00E356EF1AD99517003FC87E /* AsianSoundRadioTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -151,8 +151,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Asian_Sound_Radio.app */,
-				00E356EE1AD99517003FC87E /* Asian_Sound_RadioTests.xctest */,
+				13B07F961A680F5B00A75B9A /* AsianSoundRadio.app */,
+				00E356EE1AD99517003FC87E /* AsianSoundRadioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,10 +175,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-Asian_Sound_Radio.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-Asian_Sound_Radio.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-AsianSoundRadio.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-AsianSoundRadio.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-AsianSoundRadio-AsianSoundRadioTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-AsianSoundRadio-AsianSoundRadioTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Asian_Sound_RadioTests */ = {
+		00E356ED1AD99517003FC87E /* AsianSoundRadioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Asian_Sound_RadioTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AsianSoundRadioTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -202,14 +202,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Asian_Sound_RadioTests;
-			productName = Asian_Sound_RadioTests;
-			productReference = 00E356EE1AD99517003FC87E /* Asian_Sound_RadioTests.xctest */;
+			name = AsianSoundRadioTests;
+			productName = AsianSoundRadioTests;
+			productReference = 00E356EE1AD99517003FC87E /* AsianSoundRadioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Asian_Sound_Radio */ = {
+		13B07F861A680F5B00A75B9A /* AsianSoundRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Asian_Sound_Radio" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AsianSoundRadio" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -224,9 +224,9 @@
 			);
 			dependencies = (
 			);
-			name = Asian_Sound_Radio;
-			productName = Asian_Sound_Radio;
-			productReference = 13B07F961A680F5B00A75B9A /* Asian_Sound_Radio.app */;
+			name = AsianSoundRadio;
+			productName = AsianSoundRadio;
+			productReference = 13B07F961A680F5B00A75B9A /* AsianSoundRadio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Asian_Sound_Radio" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AsianSoundRadio" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Asian_Sound_Radio */,
-				00E356ED1AD99517003FC87E /* Asian_Sound_RadioTests */,
+				13B07F861A680F5B00A75B9A /* AsianSoundRadio */,
+				00E356ED1AD99517003FC87E /* AsianSoundRadioTests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,15 +316,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -342,7 +342,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AsianSoundRadio-AsianSoundRadioTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +364,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Asian_Sound_Radio-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AsianSoundRadio-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,15 +377,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -394,15 +394,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio/Pods-Asian_Sound_Radio-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio/Pods-AsianSoundRadio-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -411,15 +411,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests/Pods-Asian_Sound_Radio-Asian_Sound_RadioTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsianSoundRadio-AsianSoundRadioTests/Pods-AsianSoundRadio-AsianSoundRadioTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -448,7 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Asian_Sound_RadioTests.m in Sources */,
+				00E356F31AD99517003FC87E /* AsianSoundRadioTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +466,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Asian_Sound_Radio */;
+			target = 13B07F861A680F5B00A75B9A /* AsianSoundRadio */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,14 +474,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-AsianSoundRadio-AsianSoundRadioTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Asian_Sound_RadioTests/Info.plist;
+				INFOPLIST_FILE = AsianSoundRadioTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,17 +495,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asian_Sound_Radio.app/Asian_Sound_Radio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsianSoundRadio.app/AsianSoundRadio";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Asian_Sound_Radio-Asian_Sound_RadioTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-AsianSoundRadio-AsianSoundRadioTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Asian_Sound_RadioTests/Info.plist;
+				INFOPLIST_FILE = AsianSoundRadioTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,19 +519,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asian_Sound_Radio.app/Asian_Sound_Radio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsianSoundRadio.app/AsianSoundRadio";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Asian_Sound_Radio.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-AsianSoundRadio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Asian_Sound_Radio/Info.plist;
+				INFOPLIST_FILE = AsianSoundRadio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,7 +542,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Asian_Sound_Radio;
+				PRODUCT_NAME = AsianSoundRadio;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,12 +552,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Asian_Sound_Radio.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-AsianSoundRadio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Asian_Sound_Radio/Info.plist;
+				INFOPLIST_FILE = AsianSoundRadio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,7 +568,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Asian_Sound_Radio;
+				PRODUCT_NAME = AsianSoundRadio;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -715,7 +715,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Asian_Sound_RadioTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AsianSoundRadioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -724,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Asian_Sound_Radio" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AsianSoundRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -733,7 +733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Asian_Sound_Radio" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AsianSoundRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
